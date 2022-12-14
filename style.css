@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  background: rgba(3, 12, 82, 0.2);
+}
+.container{
+  background: #fff;
+
+ 
+  
+ 
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .head{
+    background: rgb(224, 123, 7);
+  }
+  .container #network{
+    padding: 20px;
+  }
+  .container #network input{
+    width:70%;
+    height: 40px;
+  
+  }
+  .container #network button{
+    width:20%;
+    height: 40px;
+    background: rgb(224, 123, 7);
+  }
+  #task{
+  background: white;
+  padding: 30px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  }
+  #task .bx{
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  .task{
+   background: #fff;
+   height: 40px;
+   margin-top: 8px;
+   padding: 5px 10px;
+   display: flex;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #939697;
+   cursor:pointer;
+  }
+  .container .head h1{
+    color: white;
+    text-align: center;
+  }
+  .taskname{
+    width: 500px;
+  }
+
+
+@media screen and (min-width:500px){
+
+  .container{
+  width: 40px;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #FFF;
+  min-height: 500px;
+  border-radius: 10px;
+  }
+  .container .head{
+    background: rgb(224, 123, 7);
+  }
+ 
+
+
+#network{
+
+  position: relative;
+  padding: 30px 20px;
+}
+#network input{
+  width: 74%;
+  height: 54%;
+  font-family: 'poppins',sans-serif;
+  font-size: 15px;
+  border: 3px solid #d1d3d4;
+  padding: 12px;
+  color: #111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+#network #push{
+  width: 20%;
+  height: 54%;
+  background: rgb(224, 123, 7);
+  font-family: 'poppins',sans-serif;
+  font-size: 15px;
+  border: 3px solid #d1d3d4;
+  padding: 12px;
+  color: #111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+}
+/* .line{
+  background: rgb(224, 123, 7);
+  height: 5px;
+  padding: 8px;
+}
+#task{
+  background: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #234e;
+  
+  padding: 0 23px;
+}
+#task .bx{
+  justify-content: flex-end;
+  cursor: pointer;
+} */
+  
+}
